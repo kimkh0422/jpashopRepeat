@@ -1,6 +1,8 @@
 package jpabookRepeat.jpashopRepeat.service;
 
 import jpabookRepeat.jpashopRepeat.domain.Member;
+import jpabookRepeat.jpashopRepeat.domain.item.Item;
+import jpabookRepeat.jpashopRepeat.repository.ItemRepository;
 import jpabookRepeat.jpashopRepeat.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,8 @@ public class MemberService {
 
 
     private final MemberRepository memberRepository;
+
+
 
     //회원 가입
     @Transactional
@@ -34,11 +38,12 @@ public class MemberService {
     }
 
     //회원 조회
-    public List<Member> findAll() {
+    public List<Member> findMembers() {
         return memberRepository.findAll();
     }
 
     public Member findById(Long memberId) {
         return memberRepository.findOne(memberId);
     }
+
 }
