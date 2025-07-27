@@ -1,4 +1,4 @@
-package jpabookRepeat.jpashopRepeat.web;
+package jpabookRepeat.jpashopRepeat.controller;
 
 import lombok.Getter;
 import lombok.Setter;

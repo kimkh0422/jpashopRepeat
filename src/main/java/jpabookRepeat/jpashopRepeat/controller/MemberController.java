@@ -1,4 +1,4 @@
-package jpabookRepeat.jpashopRepeat.web;
+package jpabookRepeat.jpashopRepeat.controller;
 
 import jakarta.validation.Valid;
 import jpabookRepeat.jpashopRepeat.domain.Address;

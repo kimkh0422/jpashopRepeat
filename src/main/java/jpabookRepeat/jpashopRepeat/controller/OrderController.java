@@ -1,4 +1,4 @@
-package jpabookRepeat.jpashopRepeat.web;
+package jpabookRepeat.jpashopRepeat.controller;
 
 import jpabookRepeat.jpashopRepeat.domain.Member;
 import jpabookRepeat.jpashopRepeat.domain.Order;
